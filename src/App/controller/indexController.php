@@ -16,7 +16,7 @@ namespace App\Controller;
 class indexController {
     //put your code here
     public function index() {
-        echo "INDEX";
+        echo "Página Inicial";
     }
     public function lista() {
         echo "LISTA";

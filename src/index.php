@@ -21,7 +21,7 @@ class Route {
     }
     
     public function initRoutes(){
-        $this->routes['/'] = array ('controller' => 'indexController', 'action' => 'index');
+        $this->routes['/CursoPhp/'] = array ('controller' => 'indexController', 'action' => 'index');
         $this->routes['/lista'] = array ('controller' => 'indexController', 'action' => 'lista');
         $this->routes['/conteudo'] = array ('controller' => 'indexController', 'action' => 'conteudo');
     }
